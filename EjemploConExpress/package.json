@@ -1,0 +1,28 @@
+{
+  "name": "primer-restapi-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-w": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hristoviedo/Primer-RestApi-Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hristoviedo/Primer-RestApi-Node/issues"
+  },
+  "homepage": "https://github.com/hristoviedo/Primer-RestApi-Node#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.7",
+    "underscore": "^1.13.6"
+  },
+  "type": "commonjs"
+}
